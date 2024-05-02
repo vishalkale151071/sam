@@ -1,5 +1,5 @@
 """
-This script is used to setup the project for testing segment anything model.
+This script is used to set up the project for testing segment anything model.
 """
 import os
 import requests
@@ -11,6 +11,7 @@ def download_weights():
     """
     This function is used to download the weights for the model.
     """
+
     # Check if the weights directory exists
     if not check_weights():
         print("Downloading weights")
